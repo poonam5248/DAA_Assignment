@@ -20,15 +20,15 @@ def printSolution(dist):
 
 """To test the above program Let us create the following weighted graph
 
-            10 
+            12
        (0)------->(3) 
         |         /|\ 
-      5 |          | 
+      6 |          | 
         |          | 1 
        \|/         | 
        (1)------->(2) 
             3           """
-graph = [[0, 5, NP, 10],
+graph = [[0, 6, NP, 12],
          [NP, 0, 3, NP],
          [NP, NP, 0, 1],
          [NP, NP, NP, 0]
